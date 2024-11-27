@@ -31,7 +31,7 @@ This project demonstrates:
 
 Feel free to download and run the code yourself and check if the issue persists in all local GPUs.
 
-Big shout out to chatgpt and claude for helping me understand the paper in depth (annotated notes by me can be found in ```AlexNet Annotated - shiven.pdf```)
+Big shout out to chatgpt and claude for helping me understand the paper in depth (annotated notes by me can be found in [```AlexNet Annotated - shiven.pdf```](https://github.com/shvn22k/AlexNet-Implementation/blob/main/AlexNet%20Annotated-%20shiven.pdf))
 
 ---
 
