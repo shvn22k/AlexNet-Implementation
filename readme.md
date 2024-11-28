@@ -28,6 +28,8 @@ This project demonstrates:
 2. Main challenges I faced can be clearly seen in [```alexnet-implement.ipynb```](https://github.com/shvn22k/AlexNet-Implementation/blob/main/alexnet-implement.ipynb) and [```alexnet-implement-trialx```](https://github.com/shvn22k/AlexNet-Implementation/blob/main/alexnet_implement-trialx.ipynb) files since I tried training the network on my local GPU (rtx 3050).
     - For some unknown reason, no matter how much I change the dropout factor, learning rates and random seeds, the model was not learning. Even on running the same colab notebook locally, the results were poor.
     - Another challenge I faced was the issue of varying accuracies, each time I ran the accuracy block, I got different accuracies - ended up fixing this one by setting seed to 42 each time randomization was being performed. (shout out to claude for this one)
+    - One last change I made that was different from the paper was using Adam optimizer instead of Stochastic Gradient because using Adam showed significant reduce in losses whereas with SGD, the model was again not learning well enough.
+  
 
 Feel free to download and run the code yourself and check if the issue persists in all local GPUs.
 
